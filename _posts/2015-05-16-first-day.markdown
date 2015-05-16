@@ -1,0 +1,5 @@
+---
+title: My first day
+---
+
+This is just another blog post I am trying out
