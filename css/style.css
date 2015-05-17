@@ -29,7 +29,6 @@
 .fade-out.four {-webkit-animation-delay: 5.5s;}
 
 .container {
-    width: 100%;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -43,7 +42,6 @@
 }
 
 #right{
- 
 }
 
 
