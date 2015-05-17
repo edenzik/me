@@ -42,14 +42,13 @@
 	</header>
 	<div class="container">
         {% include infobox.html %}
-        <div class="seven columns" id="right">
+        <div class="eight columns" id="right">
 
 		{% for post in site.posts %}
 			<article>
 				<h3>{{ post.title }}</h3>
-				<strong>{{ post.date | date_to_string }}</strong>
-				<p>{{ post.content }}</p>
-                <hr>
+                <strong>{{ post.date | date_to_string }}</strong>
+                <p>{{ post.content }}</p>
 			</article>
 		{% endfor %}
     </div>

@@ -2,7 +2,7 @@
     text-align: center;
     color: white;
     padding: 1%;
-    
+
 }
 
 .navbar {
@@ -11,9 +11,9 @@
 }
 
 @-webkit-keyframes fade-out {
-0% { opacity: 1; -webkit-transform: scale(1);}
-85% {opacity: 1; -webkit-transform: scale(1.05);}
-100% {-webkit-transform: scale(.1); opacity: 0;}
+    0% { opacity: 1; -webkit-transform: scale(1);}
+    85% {opacity: 1; -webkit-transform: scale(1.05);}
+    100% {-webkit-transform: scale(.1); opacity: 0;}
 }
 
 .fade-out {
@@ -35,19 +35,33 @@
 
 #left {
     border: 4px solid black;
-    padding-top: 5%;
+    left: 2%;
+    height:85%;
     text-align:center;
-    margin-bottom: 20px;
-    height:100%;
+    position:fixed;
+  
 }
 
-.row{
-    width: 100%;
+#right{
+        margin-left: 38%;
 }
 
-hr {
-    border: 2px dashed;
+
+@media (max-width: 550px)  {
+    #left{
+        position:relative;
+    }
+    #right{
+        padding-top: 10px;
+
+        margin-left: auto;
+    }
+
+
 }
+
+
+
 
 
 
@@ -58,36 +72,44 @@ hr {
 }
 
 #desc {
-    text-align: justify;
-    padding: 30px;
-    padding-top: 0%;
-    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
     text-justify: inter-word;
 
 }
 
-.ref {
-    border-radius: 0px;
+#external {
+
+    position: relative;
 }
 
-#external {
-    padding-bottom:20px;
+
+
+article {
+    margin-bottom: 20px;
+    border-bottom: 3px dashed black; 
 }
 
 .svg-icon {
-    margin: 10px;
+    margin: 3%;
 }
 
 .circular {
-	width: 200px;
-	height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(https://avatars2.githubusercontent.com/u/6259612?v=3&s=460) no-repeat;
-     background-size: 200px 200px;
-	}
+    margin-top: 10%;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(https://avatars2.githubusercontent.com/u/6259612?v=3&s=460) no-repeat;
+    background-size: 150px 150px;
+    border: 4px solid black;
+
+}
 
 
 
