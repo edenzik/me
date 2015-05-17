@@ -29,35 +29,24 @@
 .fade-out.four {-webkit-animation-delay: 5.5s;}
 
 .container {
-    margin: 3%;
     width: 100%;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 #left {
     border: 4px solid black;
-    left: 3.3%;
     text-align:center;
-    position:fixed;
-  
+
 }
 
 #right{
-        margin-left: 38%;
+ 
 }
 
 
-@media (max-width: 550px)  {
-    #left{
-        position:relative;
-    }
-    #right{
-        padding-top: 10px;
-
-        margin-left: auto;
-    }
-
-
-}
 
 
 
@@ -81,7 +70,6 @@
 }
 
 #external {
-
     position: relative;
 }
 

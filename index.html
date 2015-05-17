@@ -37,24 +37,24 @@
 </head>
 
 <body>
-	<header>
-		{% include header.html %}
-	</header>
-	<div class="container">
-        {% include infobox.html %}
-        <div class="eight columns" id="right">
+<header>
+    {% include header.html %}
+</header>
+<div class="container">
+    {% include infobox.html %}
+    <div class="seven columns" id="right">
 
-		{% for post in site.posts %}
-			<article>
-				<h3>{{ post.title }}</h3>
-                <strong>{{ post.date | date_to_string }}</strong>
-                <p>{{ post.content }}</p>
-			</article>
-		{% endfor %}
+        {% for post in site.posts %}
+        <article>
+            <h3>{{ post.title }}</h3>
+            <strong>{{ post.date | date_to_string }}</strong>
+            <p>{{ post.content }}</p>
+        </article>
+        {% endfor %}
     </div>
-	</div>
-	<footer>
-		{% include footer.html %}
-	</footer>
+</div>
+<footer>
+    {% include footer.html %}
+</footer>
 </body>
 </html>
